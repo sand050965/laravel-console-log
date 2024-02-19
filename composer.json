@@ -1,0 +1,44 @@
+{
+  "name": "sand/laravel-console-log",
+  "type": "library",
+  "description": "A php version of console log which can easily print messages and values in terminal in terminal for Laravel.",
+  "keywords": [
+    "php",
+    "laravel",
+    "console",
+    "log",
+    "terminal"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/sand050965/laravel-console-log/issues",
+    "source": "https://github.com/sand050965/laravel-console-log"
+  },
+  "require": {
+    "php": ">=5.4",
+    "illuminate/support": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sand\\LaravelConsoleLog\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sand\\LaravelConsoleLog\\LaravelConsoleLogServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Sand Yang",
+      "email": "sand050965@gmail.com"
+    }
+  ]
+}
